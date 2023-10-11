@@ -1,0 +1,257 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    /* border: 1px solid black; */
+}
+
+header{
+    background-color: white;
+    user-select: none;
+}
+
+.main-top{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+    height: 45px;
+}
+
+.contacts{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    margin: 0 -5px;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.icon{
+    flex: 1 1 auto;
+    background-size: 17px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    padding-right: 20px;
+    
+}
+
+.time{
+    background-image: url('image/icons/TimeLogo.png');    
+}
+
+.mail{
+    background-image: url('image/icons/EmailLogo.png');
+}
+.telephone{
+    background-image: url('image/icons/TelLogo.png');
+}
+
+.under_header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav{  
+    margin: 0 150px 0 200px;
+    max-width: 1200px; 
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav_link{
+    display: inline-flex;
+    margin: 0 15px;
+}
+
+.home{
+    margin: 0 15px 0 -60px;
+}
+
+.icon_link{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.fb{
+    width: 50px;
+    height: 50px;
+}
+.gplus{
+    width: 50px;
+    height: 50px;
+}
+.yt{
+    width: 50px;
+    height: 50px;
+}
+.inst{
+    width: 50px;
+    height: 50px;
+}
+
+.Main_page{
+    margin: 0 auto;
+    max-width: 1500px;
+    max-height: 700px;
+}
+.Mainphoto{
+    background-image: url(image/Main_Content/Doctor.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 1500px;
+    height: 550px;
+}
+
+.Main_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 55px;
+
+}
+.Main_title_content{
+    margin: 0px 0px 30px 0px;
+}
+.Main_title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 64px;
+    font-weight: 700px;
+    line-height: 125%;
+    max-width: 650px;
+    text-align: center;
+    margin-block: 20% 5%;
+    writing-mode: horizontal-tb;
+}
+.Main_undertitle_content{
+    display: flex;
+    padding-bottom: 30px;
+}
+.Main_subtitle{
+    font-size: 22px;
+    font-weight: 600px;
+    line-height: normal;
+}
+.content_button{
+    padding: 12px 12px;
+}
+.Main_button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    background: rgb(41, 146, 238);
+    font-weight: 200px;
+    line-height: 1.2;
+    max-width: 120px;
+}
+.button_position{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    background: rgb(31, 29, 29);
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300px;
+    line-height: 20px;
+}
+.Footer_container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+.Footer_position{
+    padding-bottom: 30px;
+}
+.Footer_page_position{
+    display: flex;
+    justify-content: space-around;
+}
+.Footer_column_label{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+}
+ul, ol, li {
+    list-style-type: square;
+    padding: 0;
+    margin: 0;
+}
+.Footer_menu_list {
+    display: grid;
+    gap: 16px;
+}
+.Footer_menu_link{
+    color: #fff;
+}
+.Footer_button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    background: rgb(41, 146, 238);
+    font-weight: 200px;
+    line-height: 1.2;
+    max-width: 120px;
+    margin-top: 20px;
+}
+.Footer_column_position{
+    display: flex;
+    flex-direction: column;
+}
+.text_label{
+    max-width: 300px;   
+
+}
+.icon_position{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.Footer_column_space{
+    display: flex;
+    justify-content: space-between;
+}
+.Footer_message_position{
+    margin-top: 50px;
+}
+.Footer_button_icon {
+    display: flex;
+    justify-content: start;
+    gap: 35px;
+    padding-left: 100px;
+}

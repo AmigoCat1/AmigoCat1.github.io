@@ -189,7 +189,7 @@ a{
     text-align: center;
     color: #fff;
     border-radius: 20px;
-    background: rgb(41, 146, 238);
+    background: #3f93ff;
     font-weight: 200px;
     line-height: 1.2;
     max-width: 120px;
@@ -247,7 +247,7 @@ ul, ol, li {
     text-align: center;
     color: #fff;
     border-radius: 20px;
-    background: rgb(41, 146, 238);
+    background: #3f93ff;
     font-weight: 200px;
     line-height: 1.2;
     max-width: 120px;
@@ -315,6 +315,7 @@ ul, ol, li {
 }
 .Gallery_title{
     font-family: 'Times New Roman', Times, serif;
+    color: #3b3232;
     font-size: 64px;
     font-weight: 700px;
     line-height: 125%;
@@ -328,9 +329,12 @@ ul, ol, li {
     padding-bottom: 10px;
 }
 .Gallery_subtitle{
+    color: #3b3232;
     font-size: 22px;
     font-weight: 600px;
     line-height: normal;
+    text-align: center;
+
 }
 
 .Gallery_photo_row1{
@@ -397,3 +401,105 @@ ul, ol, li {
     width: 350px;
 }
 
+.Main_Login{
+    background: #fff;
+    color: aliceblue;
+    height: 700px;
+    width: 1500px;
+}
+
+.Login_container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+.Login_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.Login_position{
+    padding-bottom: 30px;
+}
+
+.Login_title_content{
+    margin: 0px 0px 5px 0px;
+}
+.Login_title{
+    font-family: 'Times New Roman', Times, serif;
+    color: #3b3232;
+    font-size: 64px;
+    font-weight: 700px;
+    line-height: 125%;
+    text-align: center;
+    writing-mode: horizontal-tb;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+.Login_undertitle_content{
+    padding-bottom: 10px;
+}
+.Login_subtitle{
+    color: #3b3232;
+    font-size: 22px;
+    font-weight: 600px;
+    line-height: normal;
+    text-align: center;
+}
+
+.Login_undercontent{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.Doctor_photo_circle{
+    width: 400px;
+    height: 400px;
+    background-image: url("image/Main_Login/DoctorBossPhoto.jpg");
+    background-size: cover;
+    display: block;
+    border-radius: 50%;
+}
+
+.registration-cssave{
+    padding:50px 0;
+  }
+  
+  .registration-cssave form {
+    max-width:800px;
+    padding:20px 70px;
+    border-radius:10px;
+    background-color:#fff;
+  }
+  
+  .registration-cssave form h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #3b3232;
+    font-weight:bold;
+    margin-bottom:30px;
+  }
+  
+  .registration-cssave .item {
+    border-radius:10px;
+    margin-bottom:25px;
+    padding:10px 20px;
+  }
+  
+  .registration-cssave .create-account {
+    font-family: 'Times New Roman', Times, serif;
+    border-radius:30px;
+    padding:10px 20px;
+    font-size:18px;
+    font-weight:bold;
+    background-color:#3f93ff;
+    border:none;
+    color:white;
+    margin-top:20px;
+  }
